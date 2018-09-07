@@ -1,0 +1,3 @@
+oc_formulaire_homepage:
+    path:     /
+    defaults: { _controller: OCFormulaireBundle:Default:index }

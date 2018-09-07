@@ -1,0 +1,19 @@
+{# src/OC/PlatformBundle/Resources/view/Advert/view2.html.twig #}
+
+{% extends "OCPlatformBundle::layout.html.twig" %}
+
+{% block title %}
+  Lecture des personnes correspondant aux catégories
+{% endblock %}
+
+{% block ocplatform_body %}
+
+Auteur appartenant à la catégorie intégration : 
+{% for author in listCategories %}
+	<li>{{ author.author }}</li>
+{% endfor %}
+
+
+
+
+{% endblock %}
